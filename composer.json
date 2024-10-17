@@ -4,14 +4,11 @@
     "type": "library",
     "require": {
         "php": "^8",
-        "ext-curl": "*",
-        "ext-json": "*",
-        "psr/log": "^1.1",
         "guzzlehttp/guzzle": "^7.5"
     },
     "autoload": {
-        "psr-0": {
-            "ApiBrasil": "src/"
+        "psr-4": {
+            "ApiBrasil\\": "src/"
         }
     },
     "license": "MIT"
