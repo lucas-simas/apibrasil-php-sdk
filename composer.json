@@ -9,5 +9,10 @@
         "psr/log": "^1.1",
         "guzzlehttp/guzzle": "^7.5"
     },
+    "autoload": {
+        "psr-0": {
+            "ApiBrasil": "src/"
+        }
+    },
     "license": "MIT"
   }
